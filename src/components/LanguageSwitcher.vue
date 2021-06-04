@@ -34,6 +34,7 @@ export default {
 </script>
 <style lang="postcss" scoped>
 .lang-switcher {
+  z-index: 900;
   &__btn {
     display: inline;
   }
