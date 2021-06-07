@@ -27,5 +27,9 @@ export default {
     margin-right: 0.5rem;
     white-space: nowrap;
   }
+
+  @media print {
+    display: none;
+  }
 }
 </style>

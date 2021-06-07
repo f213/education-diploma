@@ -41,5 +41,9 @@ export default {
   &__delimiter {
     margin: 0 0.2rem;
   }
+
+  @media print {
+    display: none;
+  }
 }
 </style>

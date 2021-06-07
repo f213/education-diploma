@@ -46,9 +46,14 @@ export default {
     languages() {
       return [this.fetched.language.toLowerCase(), ...this.otherLanguages].sort();
     },
+    pageTitle() {
+      const { first_name, last_name } = this.fetched.student;
+      return `${first_name} ${last_name}`;
+    },
   },
   async created() {
     this.fetched = await fetchDiploma({ slug: this.slug });
+    document.title = this.pageTitle;
   },
 };
 </script>
