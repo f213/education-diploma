@@ -1,6 +1,6 @@
 <template>
   <div class="copyright">
-    <p class="copyright__notice">© {{ year }} <a href="https://education.borshev.com">Авторские курсы Фёдора Борщёва</a></p>
+    <p class="copyright__notice">© {{ year }} <a href="https://education.borshev.com">Школа Сильных Программистов</a></p>
   </div>
 </template>
 <script>
